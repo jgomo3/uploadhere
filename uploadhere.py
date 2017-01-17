@@ -14,4 +14,4 @@ def do_upload():
     upload.save(save_path) # appends upload.filename automatically
     return 'OK'
 
-run(host='localhost', port=8080)
+run(host='0.0.0.0', port=8080)
